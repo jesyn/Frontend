@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    font-family: 'Roboto';
+    
+}
+
+.header {
+    background-color: #222222;
+    height: 100px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.header a {
+    padding-right: 13px;
+}
+.container {
+    background-color: #E5E5E5;
+    height: 350px;
+    display: flex;
+    padding: 35px 19px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+.banner {
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;
+    position: relative;
+    padding-right:5px;
+    background-color: #E5E5E5;
+}
+
+.texto-img {
+    color: #FC200C;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 700;
+}
+
+.lista {
+    background-color: white;
+    height: 350px;
+    width: 491px;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 5px;
+
+}
+
+.lista h2 {
+    position: absolute;
+    top: 26px;
+    left: 160px;
+    color: #FC200C;
+    text-align: center;
+}
+
+.lista ol{
+    position: absolute;
+    top: 155px;
+    left: 51px;
+}
+
+.lista h3 {
+    position: absolute;
+    top: 112px;
+    left: 69px;
+    color: #222222;
+}
+
+.img-pizza {
+    position: absolute;
+    top: 132px;
+    right: 74px;
+}
+
+.footer {
+    background-color: #222222;
+    height: 150px;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    padding-right: 42px;
+    padding-left: 20px;
+}
+
+.footer li {
+    padding-top: 12px;
+}
