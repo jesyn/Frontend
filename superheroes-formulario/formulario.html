@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <nav class="nav"> 
+            <P> 20% de descuento en todos los productos!</P>
+        </nav>
+        <div class="head"> 
+            <img src="img/logo.png">
+            <h1>Nombre Tienda </h1>
+        </div>
+        <nav class="nav2">
+            <p> Contacto</p>
+            <p>Registrarme</p> 
+            <p> ingresar</p>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div> 
+            <form action="#" method="post">
+                <div class="form-head"> 
+                    <h2> Añadí tu super!</h2>
+                    <p> Agregá tu personaje favorito completando las opciones.</p>
+                </div>
+                <article class="form-main"> 
+                    <div class="form1"> 
+                        <P> 
+                            <label for="nombre" class="etiqueta"> *Nombre</label>
+                            <input name="nombre" id="nombre" type="text" required>
+                        </P>
+                        <p>
+                            <label for="fecha" class="etiqueta"> Fecha </label>
+                            <input name="fecha" id="fecha" type="date" required>
+                        </p>
+                        </p>
+                            <textarea class="text"> </textarea>
+                        <P> 
+                    </div>
+                    <div class="form1"> 
+                        <p>
+                            <label for="especie" class="etiqueta"> *Especie</label>
+                            <select name="especie" class="costum-select"required>
+                                <option value="1"> Unknown</option>
+                                <option value="2"> volador</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="imagen" class="etiqueta"> Agregar Foto</label>
+                            <input name="imagen" id="imagen" type="file" accept=".jpg .png">
+                        </p>
+                        <div> 
+                            <p>
+                                <label for="Poderes"> Poderes </label>
+                            </P>
+                            <P> 
+                                <input name="Poderes" id="Poderes" type="checkbox">
+                                <label for="volar"> volar </label>
+                            </P>
+                            <P> 
+                                <input name="Poderes" id="Poderes" type="checkbox">
+                                <label for="Poderes"> SuperInteligencia </label>
+                            </P>
+                            <P> 
+                                <input name="Poderes" id="Poderes" type="checkbox">
+                                <label for="Poderes"> Vista de rayo láser </label>
+                            </P>
+                            <P> 
+                                <input name="Poderes" id="Poderes" type="checkbox">
+                                <label for="Poderes"> Billetera gorda </label>
+                            </P>
+                        </div>
+                        <hr>
+                        <div>
+                            <p>
+                                <label for="tipo"> Tipo de personaje </label>
+                            </p>
+                            <p> 
+                                <input name="tipo" id="tipo" type="radio">
+                                <label for="tipo"> Héroe / Heroina </label>
+                            </p>
+                            <p> 
+                                <input name="tipo" id="tipo" type="radio">
+                                <label for="tipo"> Villano / Villana </label>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <div class="form-footer">
+                    <button type="submit" class="button2"> Añadir </button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p> Todos los derechos reservados a FRONT END 1</p>
+        <div class="icono">
+        <img src="img/github.png" height="25px">
+        </div>
+    </footer>
+</body>
+</html>
