@@ -46,7 +46,7 @@
     color: white;
     justify-content: center;
     font-family: 'Inter', sans-serif;
-    Width: 70vw;
+    Width: 60vw;
     Height: 80vh;
     margin: 3rem auto;
     border-radius: 50px;
@@ -56,6 +56,8 @@
 
 h2 {
     font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 
 }
 
@@ -64,20 +66,37 @@ h2 {
 }
 
 .form1{
-    width: 300px;
+    width: 400px;
+    margin-right: 2rem;
 }
 
-input {
+.form1 input {
     Border-Radius: 15px;
     padding: 0.5rem;
-    
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
 
 
 }
 
+.margin {
+    margin-top: 1rem;
+}
+.form2 {
+    width: 400px;
+    margin-right: 2rem;
+}
+
+.form2 p {
+    margin-top: 1rem;
+}
 .form-main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    font-weight: 300;
+    margin: 2rem 1rem 1rem;
 
 }
 
@@ -88,11 +107,18 @@ input {
 }
 
 .text {
-    height: 10rem;
+    height: 20rem;
     border-radius: 15px;
     width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
+select {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 .button2 {
     background-color: #1CD1B0;
@@ -129,3 +155,23 @@ input {
     padding-right: 0.5rem;
 
 } 
+
+@media (max-width:800px) {
+    .container {
+        height: 1200px;
+        padding-left: 2rem;
+    }
+    .form-main { 
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1004px) {
+    .text {
+        height: 10rem;
+    }
+    .form2 p {
+        margin-top: 0.5rem;
+    }
+}
